@@ -31,7 +31,7 @@ try:
        p = p.replace(" ", "")  # this will make sure that there is no space in the message
        if p.isalpha():
            k = input("Enter the key: ")
-           if len(k) > 1 or k.isalpha() == false:
+           if len(k) > 1 or k.isalpha() == False:
                print("Enter valid key, key is only one letter")
            else:
                c = encrypt(p, k)
@@ -44,7 +44,7 @@ try:
         c = c.replace(" ", "")
         if p.isalpha():
             k = input("Enter the key: ")
-            if len(k) > 1 or k.isalpha() == false:
+            if len(k) > 1 or k.isalpha() == False:
                 print("Enter valid key, key is only one letter")
             else:
                 p = decrypt(c, k)
