@@ -42,7 +42,7 @@ try:
     elif choose == '2':
         c = input("enter the cipher text: ")
         c = c.replace(" ", "")
-        if p.isalpha():
+        if c.isalpha():
             k = input("Enter the key: ")
             if len(k) > 1 or k.isalpha() == False:
                 print("Enter valid key, key is only one letter")
